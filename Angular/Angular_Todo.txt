@@ -1,0 +1,64 @@
+ng new cinema --skip-tests
+cd cinema 
+cd src
+cd app
+ng g c Home
+ng g c Schedule
+ng g c Movie
+cd ..
+cd ..
+ng g s data
+ng serve --open
+
+---
+^cmd paste ennyi
+---
+
+app.component.html >
+<router-outlet></router-outlet>
+
+src/app/home
+home.component.ts >
+import RouterModel
+
+home.component.html >
+routerLink
+
+.. cuccok átmásolása
+
+app.routes.ts >
+{ path: '', component: HomeComponent },
+{ path: 'schedule', component: ScheduleComponent }
+
+
+movie.model.ts -> root mappába
+
+.. model átmásolása (JSON TO TS)
+
+!!!
+app.config.ts >
+provideHttpClient(withFetch())
+!!!
+
+data.service.ts >
+constructor(private http: HttpClient) { }
+
+  apiUrl='cinema.jedlik.cloud/api';
+
+  getMovies(): Observable<MovieModel[]>{
+    return this.http.get<MovieModel[]>(this.apiUrl + '/movie');
+  }
+
+  postMovie(model: MovieModel): Observable<MovieModel>{
+    return this.http.post<MovieModel>(this.apiUrl + '/movie', model);
+  }
+
+  putMovie(model: MovieModel): Observable<MovieModel>{
+    return this.http.put<MovieModel>(this.apiUrl + '/movie/' + model.id, model);
+  } 
+
+  deleteMovie(id: number): Observable<any>{
+    return this.http.delete<any>(this.apiUrl + '/movie/' + id);
+  }
+
+

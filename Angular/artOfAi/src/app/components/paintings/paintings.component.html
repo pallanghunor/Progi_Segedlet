@@ -1,0 +1,89 @@
+<div class="container">
+
+    <h1 class="text-center">Art of AI auction</h1>
+
+    <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 my-4">
+        <label class="form-label">Category:</label>
+        <select class="form-select" (input)="this.fetchPaintings($event)">
+            <option selected value="">All category</option>
+            @for (cat of this.categories; track $index) {
+            <option [value]="cat.id">{{ cat.name }}</option>
+            }
+        </select>
+    </div>
+
+    <div class="row">
+        @for (p of this.paintings; track $index) {
+
+        <div class="col-12 col-md-6 col-xl-4">
+            <div class="card w-100">
+                <img [src]="p.imageUrl" class="card-img-top p-3">
+                <div class="card-body">
+                    <p class="card-text">
+                        {{p.description }}
+                    </p>
+                    <hr>
+                    <p>
+                        Starting price: {{ p.startingPrice }},- Ft
+                    </p>
+                    <p>
+                        Number of <span class="bids" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            (click)="this.fetchBids(p.id)">bids</span>:
+                        {{ p.numberOfBids }},
+                        highest bid: {{ p.maxBid }},- Ft
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-primary" (click)="placeBid(p)">Bid</a>
+                </div>
+            </div>
+        </div>
+        }
+
+    </div>
+</div>
+
+@if(this.bids.length){
+<div class="modal show d-block" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Bids</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    (click)="this.bids = []"></button>
+            </div>
+            <div class="modal-body">
+                <table>
+                    @for (bid of this.bids; track $index) {
+                    <tr>
+                        <td>{{ bid.email }}</td>
+                        <td>{{ bid.price }}, - Ft</td>
+                    </tr>
+                    }
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                    (click)="this.bids = []">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+@if(this.bidData){
+<div class="modal show d-block modal-lg" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Place bid</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    (click)="this.bidData = null"></button>
+            </div>
+            <div class="modal-body w-100">
+                <bidding [painting]="this.bidData" (onSuccessfulBid)="this.sendBid($event); this.bidData = null"/>
+            </div>            
+        </div>
+    </div>
+</div>
+}

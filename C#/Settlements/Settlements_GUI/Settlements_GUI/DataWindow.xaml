@@ -1,0 +1,34 @@
+﻿<Window x:Class="Settlements_GUI.DataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Settlements_GUI"
+        mc:Ignorable="d"
+        Title="Új város" Height="450" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Név:" Grid.Row="0" VerticalAlignment="Center"/>
+        <Label Content="Megye:" Grid.Row="1" VerticalAlignment="Center"/>
+        <Label Content="Régió:" Grid.Row="2" VerticalAlignment="Center"/>
+        <Label Content="Népesség:" Grid.Row="3" VerticalAlignment="Center"/>
+        <Label Content="Terület:" Grid.Row="4" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Height="30" Text="{Binding NewSettlement.Name}"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" Height="30" ItemsSource="{Binding Counties}" DisplayMemberPath="Name" SelectedItem="{Binding NewSettlement.County}"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Height="30" Text="{Binding NewSettlement.Region}"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Height="30" Text="{Binding NewSettlement.Population}"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Height="30" Text="{Binding NewSettlement.Areasize}"/>
+        <Button x:Name="save_BTN" Grid.Row="5" Grid.ColumnSpan="2" Width="150" Height="40" Content="Mentés" Click="save_BTN_Click"/>
+    </Grid>
+</Window>

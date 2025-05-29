@@ -1,0 +1,15 @@
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\bin\Debug\net8.0\Pilots_Console.exe
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\bin\Debug\net8.0\pilots.json
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\bin\Debug\net8.0\Pilots_Console.deps.json
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\bin\Debug\net8.0\Pilots_Console.runtimeconfig.json
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\bin\Debug\net8.0\Pilots_Console.dll
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\bin\Debug\net8.0\Pilots_Console.pdb
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.AssemblyInfoInputs.cache
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.AssemblyInfo.cs
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.csproj.CoreCompileInputs.cache
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.dll
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\refint\Pilots_Console.dll
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.pdb
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\Pilots_Console.genruntimeconfig.cache
+D:\13A_boka_matyas\2025.04.03_Boka_Matyas\Pilots_Console\Pilots_Console\obj\Debug\net8.0\ref\Pilots_Console.dll

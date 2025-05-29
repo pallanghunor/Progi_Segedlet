@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|c:\\users\\tivym\\desktop\\progi_segitseg\\c#\\wpf\\pilots_gui\\pilots_gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|solutionrelative:pilots_gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|c:\\users\\tivym\\desktop\\progi_segitseg\\c#\\wpf\\pilots_gui\\pilots_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|solutionrelative:pilots_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|c:\\users\\tivym\\desktop\\progi_segitseg\\c#\\wpf\\pilots_gui\\pilots_gui\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|solutionrelative:pilots_gui\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|c:\\users\\tivym\\desktop\\progi_segitseg\\c#\\wpf\\pilots_gui\\pilots_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|solutionrelative:pilots_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|c:\\users\\tivym\\desktop\\progi_segitseg\\c#\\wpf\\pilots_gui\\pilots_gui\\pilot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|solutionrelative:pilots_gui\\pilot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|c:\\users\\tivym\\desktop\\progi_segitseg\\c#\\wpf\\pilots_gui\\pilots_gui\\migrations\\20250403065446_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF67BC8-0346-408D-B4DE-9FC8A24DC783}|Pilots_GUI\\Pilots_GUI.csproj|solutionrelative:pilots_gui\\migrations\\20250403065446_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250403065446_Init.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\Migrations\\20250403065446_Init.cs",
+              "RelativeDocumentMoniker": "Pilots_GUI\\Migrations\\20250403065446_Init.cs",
+              "ToolTip": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\Migrations\\20250403065446_Init.cs",
+              "RelativeToolTip": "Pilots_GUI\\Migrations\\20250403065446_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:54:46.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\App.config",
+              "RelativeDocumentMoniker": "Pilots_GUI\\App.config",
+              "ToolTip": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\App.config",
+              "RelativeToolTip": "Pilots_GUI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-03T06:51:53.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\DataContext.cs",
+              "RelativeDocumentMoniker": "Pilots_GUI\\DataContext.cs",
+              "ToolTip": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\DataContext.cs",
+              "RelativeToolTip": "Pilots_GUI\\DataContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:50:52.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pilot.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\Pilot.cs",
+              "RelativeDocumentMoniker": "Pilots_GUI\\Pilot.cs",
+              "ToolTip": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\Pilot.cs",
+              "RelativeToolTip": "Pilots_GUI\\Pilot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:33:58.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Pilots_GUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\MainWindow.xaml",
+              "RelativeToolTip": "Pilots_GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T10:33:43.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pilots_GUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tivym\\Desktop\\Progi_Segitseg\\C#\\Wpf\\Pilots_GUI\\Pilots_GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Pilots_GUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAUwGAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:33:43.393Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

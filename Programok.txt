@@ -1,0 +1,12 @@
+XAMPP
+DbForge
+Visual Studio
+
+Node.js
+MongoDB Server
+MongoDB Compass / Studio3T
+Postman
+
+Angular cli (npm install -g @angular/cli)
+
+Visual Studio Code + extensions

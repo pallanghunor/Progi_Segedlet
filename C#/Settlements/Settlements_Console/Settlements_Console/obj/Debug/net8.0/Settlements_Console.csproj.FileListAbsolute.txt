@@ -1,0 +1,15 @@
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\bin\Debug\net8.0\Settlements_Console.exe
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\bin\Debug\net8.0\settlements.json
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\bin\Debug\net8.0\Settlements_Console.deps.json
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\bin\Debug\net8.0\Settlements_Console.runtimeconfig.json
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\bin\Debug\net8.0\Settlements_Console.dll
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\bin\Debug\net8.0\Settlements_Console.pdb
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.GeneratedMSBuildEditorConfig.editorconfig
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.AssemblyInfoInputs.cache
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.AssemblyInfo.cs
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.csproj.CoreCompileInputs.cache
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.dll
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\refint\Settlements_Console.dll
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.pdb
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\Settlements_Console.genruntimeconfig.cache
+T:\Balogh Bence\14F\C#\2025.04.10_Settlements_VizsgaGyak\megoldasok\Settlements_Console\Settlements_Console\obj\Debug\net8.0\ref\Settlements_Console.dll

@@ -1,0 +1,57 @@
+﻿<Window x:Class="Pilots_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pilots_GUI"
+        mc:Ignorable="d"
+        Title="Forma 1" Height="500" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.8*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="DG_data" AutoGenerateColumns="False" IsReadOnly="True" Grid.RowSpan="2" ItemsSource="{Binding Pilots}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width=".2*" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Név" Width="1.2*" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Nem" Width=".5*" Binding="{Binding Gender}"/>
+                <DataGridTextColumn Header="Szül. dátum" Width="*" Binding="{Binding Birthdate, StringFormat=yyyy.MM.dd}"/>
+                <DataGridTextColumn Header="Nemzet" Width="*" Binding="{Binding Nation}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Header="Új pilóta" Grid.Column="1" Margin="10, 0">
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Név:" Grid.Row="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+                <Label Content="Nem:" Grid.Row="1" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+                <Label Content="Születési dátum:" Grid.Row="2" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+                <Label Content="Nemzetiség:" Grid.Row="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TBX_name" Grid.Row="0" Grid.Column="1" Height="30" VerticalContentAlignment="Center"/>
+                <ComboBox x:Name="CBX_gender" Grid.Row="1" Grid.Column="1" Height="30" Width="100" HorizontalAlignment="Left" VerticalContentAlignment="Center">
+                    <ComboBoxItem Content="Férfi" Name="M"/>
+                    <ComboBoxItem Content="Nő" Name="F"/>
+                </ComboBox>
+                <DatePicker x:Name="DP_birthdate" Grid.Row="2" Grid.Column="1" Height="30" Width="150" HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="TBX_nation" Grid.Row="3" Grid.Column="1" Height="30" VerticalContentAlignment="Center"/>
+                <Button x:Name="BTN_save" Content="Mentés" Grid.Row="4" Grid.ColumnSpan="2" Width="120" Height="30" Click="BTN_save_Click"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="BTN_del" Grid.Row="2" Width="150" Height="40" Content="Töröl" Click="BTN_del_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|c:\\users\\tivym\\onedrive\\02_tanulm\u00E1nyok\\02_jedlik\\13_a\\csharp\\14f\\c#\\2025.04.10_settlements_vizsgagyak\\megoldasok\\settlements_console\\settlements_console\\settlement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|solutionrelative:settlements_console\\settlement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|c:\\users\\tivym\\onedrive\\02_tanulm\u00E1nyok\\02_jedlik\\13_a\\csharp\\14f\\c#\\2025.04.10_settlements_vizsgagyak\\megoldasok\\settlements_console\\settlements_console\\settlements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|solutionrelative:settlements_console\\settlements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|c:\\users\\tivym\\onedrive\\02_tanulm\u00E1nyok\\02_jedlik\\13_a\\csharp\\14f\\c#\\2025.04.10_settlements_vizsgagyak\\megoldasok\\settlements_console\\settlements_console\\solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|solutionrelative:settlements_console\\solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|c:\\users\\tivym\\onedrive\\02_tanulm\u00E1nyok\\02_jedlik\\13_a\\csharp\\14f\\c#\\2025.04.10_settlements_vizsgagyak\\megoldasok\\settlements_console\\settlements_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|solutionrelative:settlements_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|c:\\users\\tivym\\onedrive\\02_tanulm\u00E1nyok\\02_jedlik\\13_a\\csharp\\14f\\c#\\2025.04.10_settlements_vizsgagyak\\megoldasok\\settlements_console\\settlements_console\\minsearchhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C3D405-E69C-4729-A71D-F33D7BB645AE}|Settlements_Console\\Settlements_Console.csproj|solutionrelative:settlements_console\\minsearchhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinSearchHelper.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\MinSearchHelper.cs",
+              "RelativeDocumentMoniker": "Settlements_Console\\MinSearchHelper.cs",
+              "ToolTip": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\MinSearchHelper.cs",
+              "RelativeToolTip": "Settlements_Console\\MinSearchHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:28:01.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Solution.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\Solution.cs",
+              "RelativeDocumentMoniker": "Settlements_Console\\Solution.cs",
+              "ToolTip": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\Solution.cs",
+              "RelativeToolTip": "Settlements_Console\\Solution.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:12:09.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "settlements.json",
+              "DocumentMoniker": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\settlements.json",
+              "RelativeDocumentMoniker": "Settlements_Console\\settlements.json",
+              "ToolTip": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\settlements.json",
+              "RelativeToolTip": "Settlements_Console\\settlements.json",
+              "ViewState": "AgIAALwKAAAAAAAAAAAAAMQKAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-10T08:07:28.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Settlement.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\Settlement.cs",
+              "RelativeDocumentMoniker": "Settlements_Console\\Settlement.cs",
+              "ToolTip": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\Settlement.cs",
+              "RelativeToolTip": "Settlements_Console\\Settlement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:07:55.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\Program.cs",
+              "RelativeDocumentMoniker": "Settlements_Console\\Program.cs",
+              "ToolTip": "C:\\Users\\tivym\\OneDrive\\02_Tanulm\u00E1nyok\\02_Jedlik\\13_A\\CSharp\\14F\\C#\\2025.04.10_Settlements_VizsgaGyak\\megoldasok\\Settlements_Console\\Settlements_Console\\Program.cs",
+              "RelativeToolTip": "Settlements_Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:06:34.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

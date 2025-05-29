@@ -1,0 +1,27 @@
+<div class="background">
+
+</div> 
+<div class="form-container">
+    <h3>Film adatok rögzítése</h3>
+    <form action="#" method="post">
+        <label for="title">Film Címe:</label>
+        <input type="text" id="title" name="title" required [(ngModel)]="movie.title">
+
+        <label for="actor">Főszereplő:</label>
+        <input type="text" id="actor" name="actor" required [(ngModel)]="movie.star">
+
+        <label for="image">Kép URL:</label>
+        <input type="file" id="image" name="image" required (change)="imageChanged($event)">
+
+        <label for="description">Leírás:</label>
+        <textarea id="description" name="description" rows="4" required [(ngModel)]="movie.description"></textarea>
+
+        <label for="start_date">Vetítési kezdete:</label>
+        <input type="date" id="start_date" name="start_date" required [(ngModel)]="movie.from">
+
+        <label for="end_date">Vetítési vége:</label>
+        <input type="date" id="end_date" name="end_date" required [(ngModel)]="movie.to">
+
+        <button type="submit" (click)="save()">Rögzítés</button>
+    </form>
+</div>

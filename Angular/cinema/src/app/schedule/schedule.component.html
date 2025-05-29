@@ -1,0 +1,28 @@
+<h1>Mozi műsor</h1>
+<div class="container">
+    @for (movie of movies; track $index) {
+        <div class="card">
+            <img [src]="movie.imageUrl" >
+            <div class="card-content">
+                <h2>{{movie.title}}</h2>
+                <p><strong>Főszereplő:</strong>{{movie.star}}</p>
+                <p><strong>Leírás:</strong>{{movie.description}}</p>
+                <p><strong>Vetítési időszak:</strong><br>{{movie.onAir}}</p>
+                <div class="edit-icon">
+                    <span (click)="update(movie)">✏️</span>
+                    <span (click)="delete(movie)">🗑️</span>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="card">
+        <div style="padding-top: 60px; font-size: 10rem;" (click)="newMovie()">+</div>
+    </div>
+</div>
+
+@if (movieUnderEdit) {
+    <app-movie [movie]="movieUnderEdit"  
+               (saved)="saved($event)"
+               (cancel)="movieUnderEdit = null">
+    </app-movie>
+}
